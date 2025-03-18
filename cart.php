@@ -48,7 +48,6 @@ INNER JOIN menu ON addcart.p_id=menu.id where addcart.u_id='$uid'");
 
                 </tr>
 
-
             <?php
             }
             ?>
@@ -58,8 +57,6 @@ INNER JOIN menu ON addcart.p_id=menu.id where addcart.u_id='$uid'");
             <a href="checkout.php">Check Out</a>
         </div>
     </div>
-
-
 </div>
 <?php
 include "footer.php";
