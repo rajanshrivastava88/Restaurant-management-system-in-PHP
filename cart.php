@@ -2,8 +2,6 @@
 $uid = $_SESSION['uid'];
 include "header.php"; ?>
 <style type="text/css">
-    tr {}
-
     tr:hover {
         background-color: lightgreen;
         color: black;
