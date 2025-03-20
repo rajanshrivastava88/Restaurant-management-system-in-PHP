@@ -66,7 +66,8 @@ include "header.php"; ?>
                         $total  = $price * $qty;
 
                         include "connect.php";
-                        mysqli_query($con, "insert into addcart(p_id,u_id,price,qty,total ) values('$pid','$uid','$price','$qty','$total')") or die(mysqli_error($con));
+                        mysqli_query($con, "insert into addcart(p_id,u_id,price,qty,total ) values 
+                        ('$pid','$uid','$price','$qty','$total')") or die(mysqli_error($con));
                         echo "<script>alert('Your data Is Add Inside Cart')</script>";
                     }
 
